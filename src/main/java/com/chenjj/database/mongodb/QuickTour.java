@@ -83,6 +83,8 @@ public class QuickTour {
 			cursor.close();
 		}
 		
+		collection.drop();
+		
 		mongoClient.close();
 	}
 }
